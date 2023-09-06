@@ -24,7 +24,7 @@ public class Creeper127 implements ModInitializer {
     // クリエイティブタブ
     private static final ItemGroup CreeperTab = FabricItemGroup.builder()
             .icon(() -> new ItemStack(Items.TNT))
-            .displayName(Text.of("Creeper127で追加されたタブ")).entries((displayContext, entries) -> {
+            .displayName(Text.of("爆発力127のクリーパー")).entries((displayContext, entries) -> {
 
                 // ここにクリエイティブに追加したいアイテムを書く
                 entries.add(CreeperEgg);
