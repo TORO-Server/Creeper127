@@ -39,7 +39,7 @@ public class Creeper127 implements ModInitializer {
             //---------- クリーパーのスポーンエッグの NBTタグ を設定---------- start
             // String から変換
             NbtCompound NbtTag = NbtHelper.fromNbtProviderString(
-                    "{EntityTag:{id:creeper,Fuse:0,ExplosionRadius:127},display:{Name:'[{\"text\":\"お掃除ボム\",\"italic\":false}]'},Enchantments:[{}]}"
+                    "{EntityTag:{id:creeper,Fuse:0,ExplosionRadius:127},Enchantments:[{}],display:{Name:'[{\"text\":\"お掃除ボム\",\"italic\":false}]',Lore:['[{\"text\":\"\",\"italic\":false}]']}}"
             );
             // スポーンエッグのNBTタグ 設定
             CreeperEgg.setNbt(NbtTag);
