@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "creeper127",
+  "version": "${version}",
+  "name": "Creeper127",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/creeper127/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "marumasa.creeper127.client.Creeper127Client"
+    ],
+    "main": [
+      "marumasa.creeper127.Creeper127"
+    ]
+  },
+  "mixins": [
+    "creeper127.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
