@@ -10,9 +10,6 @@
   "icon": "assets/creeper127/icon.png",
   "environment": "client",
   "entrypoints": {
-    "client": [
-      "marumasa.creeper127.client.Creeper127Client"
-    ],
     "main": [
       "marumasa.creeper127.Creeper127"
     ]
